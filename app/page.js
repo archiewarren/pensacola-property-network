@@ -27,16 +27,45 @@ export default function Home() {
         </a>
       </section>
 
-      {/* ABOUT */}
-      <section style={{ padding: "80px 20px", maxWidth: "1000px", margin: "auto" }}>
-        <h2>About Archie & Paul</h2>
-        <p>
-          Archie and Paul Warren are Pensacola-based residential real estate
-          professionals with Southern Realty Gulf Coast LLC. We specialize in
-          helping buyers confidently navigate the Pensacola, Gulf Breeze,
-          Navarre, and Perdido Key markets with clarity, honesty, and local expertise.
-        </p>
-      </section>
+   {/* ABOUT */}
+<section style={{ padding: "80px 20px", maxWidth: "1100px", margin: "auto", display: "grid", gap: "40px", gridTemplateColumns: "1fr 1fr", alignItems: "center" }}>
+  
+  <img
+    src="/team.jpg"
+    alt="Archie and Paul Warren Pensacola Real Estate"
+    style={{ width: "100%", borderRadius: "16px" }}
+  />
+
+  <div>
+    <img
+      src="/ppn-logo.png"
+      alt="Pensacola Property Network"
+      style={{ maxWidth: "220px", marginBottom: "20px" }}
+    />
+
+    <h2>Meet Archie & Paul Warren</h2>
+
+    <p>
+      Archie and Paul Warren are Pensacola-based residential real estate professionals with
+      <strong> Southern Realty Gulf Coast LLC</strong>. As founders of the Pensacola Property Network,
+      they specialize in helping buyers confidently navigate the local market with clarity,
+      integrity, and a modern approach to real estate.
+    </p>
+
+    <p>
+      With deep knowledge of Pensacola, Gulf Breeze, Navarre, and Perdido Key, Archie and Paul
+      focus on building long-term relationships, not just closing transactions. Their goal is
+      simple: help clients make smart real estate decisions while enjoying a smooth, stress-free
+      experience.
+    </p>
+
+    <img
+      src="/southern-realty-logo.png"
+      alt="Southern Realty Gulf Coast LLC"
+      style={{ maxWidth: "180px", marginTop: "20px" }}
+    />
+  </div>
+</section>
 
       {/* TESTIMONIALS */}
       <section style={{ background: "#f4f4f4", padding: "80px 20px" }}>

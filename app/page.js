@@ -60,7 +60,7 @@ export default function Home() {
     </p>
 
     <img
-      src="/southern-realty-logo.png"
+      src="/southern-realty-logo.jpg"
       alt="Southern Realty Gulf Coast LLC"
       style={{ maxWidth: "180px", marginTop: "20px" }}
     />

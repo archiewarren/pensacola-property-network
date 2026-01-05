@@ -74,7 +74,7 @@ export default function Home() {
           <p><strong>Client Name</strong>: “Archie and Paul were incredible from start to finish.”</p>
           <p><strong>Client Name</strong>: “Best home buying experience we’ve had in Pensacola.”</p>
           <p style={{ fontSize: "14px", marginTop: "20px" }}>
-            * You can edit testimonials directly in this file anytime.
+           
           </p>
         </div>
       </section>

@@ -31,7 +31,7 @@ export default function Home() {
 <section style={{ padding: "80px 20px", maxWidth: "1100px", margin: "auto", display: "grid", gap: "40px", gridTemplateColumns: "1fr 1fr", alignItems: "center" }}>
   
   <img
-    src="/team.jpg"
+    src="/team.png"
     alt="Archie and Paul Warren Pensacola Real Estate"
     style={{ width: "100%", borderRadius: "16px" }}
   />

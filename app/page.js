@@ -1,10 +1,28 @@
 import Image from "next/image";
+import { useEffect, useState } from "react";
+
 
 export default function Home() {
-const isMobile =
-  typeof window !== "undefined" && window.matchMedia("(max-width: 900px)").matches;
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(max-width: 900px)");
+
+    const handleResize = () => setIsMobile(mediaQuery.matches);
+
+    handleResize(); // set initial value
+    mediaQuery.addEventListener("change", handleResize);
+
+    return () => mediaQuery.removeEventListener("change", handleResize);
+  }, []);
+
   return (
     <main style={{ fontFamily: "Arial, sans-serif", lineHeight: 1.6 }}>
+      {/* content */}
+    </main>
+  );
+}
+>
 
 {/* TOP BRAND IMAGE */}
 <section style={{ width: "100%" }}>

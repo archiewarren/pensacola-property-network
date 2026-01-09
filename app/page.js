@@ -19,7 +19,7 @@ export default function Home() {
       alt="Southern Realty Gulf Coast LLC - Archie and Paul Warren"
       fill
       priority
-      style={{ objectFit: "cover", objectPosition: "center top" }}
+      style={{ objectFit: "contain", objectPosition: "center" }}
     />
   </div>
 </section>
@@ -54,7 +54,7 @@ export default function Home() {
       alt="Archie and Paul Warren"
       fill
       sizes="(max-width: 900px) 100vw, 520px"
-      style={{ objectFit: "cover", objectPosition: "center" }}
+      style={{ objectFit: "cover", objectPosition: "center top" }}
     />
   </div>
 

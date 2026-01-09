@@ -50,17 +50,24 @@ import Image from "next/image";
     <h2>Meet Archie & Paul Warren</h2>
 
     <p>
-      Archie and Paul Warren are Pensacola-based residential real estate professionals with
-      <strong> Southern Realty Gulf Coast LLC</strong>. As founders of the Pensacola Property Network,
-      they specialize in helping buyers confidently navigate the local market with clarity,
-      integrity, and a modern approach to real estate.
+      Paul Warren is a former Blue and Gold Officer and the father of 6 children including 4 USNA Grads – Arny (’12, P-8 pilot), Archie (’13, P-8 NFO), Carpenter (’16, EP-3 Pilot), and Shepherd (’18, P-8 Pilot).
+      Archie Warren is a 2013 USNA graduate and he holds a Master’s degree in Data Science from Northwestern University. At Navy, he studied applied mathematics and played varsity water polo before commissioning as a Naval Flight Officer.
     </p>
 
     <p>
-      With deep knowledge of Pensacola, Gulf Breeze, Navarre, and Perdido Key, Archie and Paul
-      focus on building long-term relationships, not just closing transactions. Their goal is
-      simple: help clients make smart real estate decisions while enjoying a smooth, stress-free
-      experience.
+Paul and Archie have both been active in the
+Pensacola real estate market for several years.
+They each own Airbnb investment properties and
+co-host additional Airbnbs. Combined they have
+over 1000 reviews with an average rating of 4.96.
+They are both licensed realtors with Levin Rinke
+Realty and have a passion for helping buyers,
+specifically Navy buyers, find their dream home
+or investment property. Collectively, the Warren
+boys have bought properties in Pensacola,
+Jacksonville, Corpus Christi, Whidbey Island, and
+Virginia Beach and can connect you with a Realtor
+anywhere in the country.
     </p>
 
     <img

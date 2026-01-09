@@ -127,25 +127,41 @@ export default function Home() {
       >
         <h2>Start Your Home Search</h2>
 
-        <form
-          action="mailto:Archiewarren13@gmail.com"
-          method="post"
-          encType="text/plain"
-        >
-          <input placeholder="Full Name" required style={inputStyle} />
-          <input placeholder="Email" required style={inputStyle} />
-          <input placeholder="Phone Number" required style={inputStyle} />
-          <textarea
-            placeholder="Tell us what you're looking for"
-            style={inputStyle}
-          />
-          <button style={buttonStyle}>Submit</button>
-        </form>
+<form
+  action="https://formspree.io/f/abcdwxyz"
+  method="POST"
+>
+  <input
+    name="name"
+    placeholder="Full Name"
+    required
+    style={inputStyle}
+  />
 
-        <p style={{ marginTop: "30px" }}>
-          📞 <a href="tel:4102991538">410-299-1538</a><br />
-          📧 Archiewarren13@gmail.com
-        </p>
+  <input
+    type="email"
+    name="email"
+    placeholder="Email"
+    required
+    style={inputStyle}
+  />
+
+  <input
+    name="phone"
+    placeholder="Phone Number"
+    style={inputStyle}
+  />
+
+  <textarea
+    name="message"
+    placeholder="Tell us what you're looking for"
+    style={inputStyle}
+  />
+
+  <button type="submit" style={buttonStyle}>
+    Submit
+  </button>
+</form>
       </section>
 
       {/* FOOTER */}

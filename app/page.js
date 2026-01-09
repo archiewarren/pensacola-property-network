@@ -3,6 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main style={{ fontFamily: "Arial, sans-serif", lineHeight: 1.6 }}>
+
 {/* TOP BRAND IMAGE */}
 <section style={{ width: "100%" }}>
   <div
@@ -14,7 +15,7 @@ export default function Home() {
     }}
   >
     <Image
-      src="/srgc-top.png"
+      src="/top.png"
       alt="Southern Realty Gulf Coast LLC - Archie and Paul Warren"
       fill
       priority

@@ -67,21 +67,29 @@ export default function Home() {
       style={{ borderRadius: "12px", marginBottom: "20px" }}
     />
 
-    <h2>Meet Archie & Paul Warren</h2>
+<h2>Meet Archie & Paul Warren</h2>
 
-    <p>
-      Paul Warren is a former Blue and Gold Officer and the father of 6 children
-      including 4 USNA Grads – Arny (’12, P-8 pilot), Archie (’13, P-8 NFO),
-      Carpenter (’16, EP-3 Pilot), and Shepherd (’18, P-8 Pilot).
-    </p>
+<p>
+  Paul Warren is a former Blue and Gold Officer and the father of 6 children
+  including 4 USNA Grads – Arny (’12, P-8 pilot), Archie (’13, P-8 NFO),
+  Carpenter (’16, EP-3 Pilot), and Shepherd (’18, P-8 Pilot).
+  Archie Warren is a 2013 USNA graduate and he holds a Master’s degree in
+  Data Science from Northwestern University. At Navy, he studied applied
+  mathematics and played varsity water polo before commissioning as a Naval
+  Flight Officer.
+</p>
 
-    <p>
-      Paul and Archie have both been active in the Pensacola real estate market
-      for several years. They each own Airbnb investment properties and co-host
-      additional Airbnbs. Combined they have over 1000 reviews with an average
-      rating of 4.96. They are licensed realtors passionate about helping Navy
-      buyers find homes and investments.
-    </p>
+<p>
+  Paul and Archie have both been active in the Pensacola real estate market
+  for several years. They each own Airbnb investment properties and co-host
+  additional Airbnbs. Combined they have over 1000 reviews with an average
+  rating of 4.96. They are both licensed realtors with Southern Realty Gulf Coast and
+  have a passion for helping buyers, specifically Navy buyers, find their
+  dream home or investment property. Collectively, the Warrens have bought
+  properties in Pensacola, Jacksonville, Corpus Christi, Whidbey Island, 
+  Virginia Beach, and Denver and can connect you with a Realtor anywhere in the country.
+</p>
+
 
     <Image
       src="/southern-realty-logo.png"

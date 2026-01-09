@@ -19,7 +19,7 @@ export default function Home() {
       alt="Southern Realty Gulf Coast LLC - Archie and Paul Warren"
       fill
       priority
-      style={{ objectFit: "cover", objectPosition: "center" }}
+      style={{ objectFit: "cover", objectPosition: "center top" }}
     />
   </div>
 </section>

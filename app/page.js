@@ -9,7 +9,7 @@ export default function Home() {
         style={{
           padding: "100px 20px",
           background:
-            "linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('/pensacola.jpg') center / cover no-repeat",
+  "linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)), url('/pensacola-hero.jpg') center / cover no-repeat",
           color: "white",
           textAlign: "center",
         }}

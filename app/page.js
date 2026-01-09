@@ -3,38 +3,26 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main style={{ fontFamily: "Arial, sans-serif", lineHeight: 1.6 }}>
+{/* TOP BRAND IMAGE */}
+<section style={{ width: "100%" }}>
+  <div
+    style={{
+      position: "relative",
+      width: "100%",
+      height: "420px",
+      overflow: "hidden",
+    }}
+  >
+    <Image
+      src="/srgc-top.png"
+      alt="Southern Realty Gulf Coast LLC - Archie and Paul Warren"
+      fill
+      priority
+      style={{ objectFit: "cover", objectPosition: "center" }}
+    />
+  </div>
+</section>
 
-      {/* HERO */}
-      <section
-        style={{
-          padding: "100px 20px",
-          background:
-  "linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)), url('/pensacola-hero.jpg') center / cover no-repeat",
-          color: "white",
-          textAlign: "center",
-        }}
-      >
-        <h1 style={{ fontSize: "48px" }}>Pensacola Property Network</h1>
-        <p style={{ fontSize: "20px", marginTop: "10px" }}>
-          Archie & Paul Warren · Southern Realty Gulf Coast LLC
-        </p>
-
-        <a
-          href="#contact"
-          style={{
-            display: "inline-block",
-            marginTop: "30px",
-            padding: "15px 30px",
-            background: "white",
-            color: "black",
-            borderRadius: "8px",
-            textDecoration: "none",
-            fontWeight: "bold",
-          }}
-        >
-          Find Your Pensacola Home
-        </a>
-      </section>
 
 {/* ABOUT */}
 <section
@@ -48,14 +36,6 @@ export default function Home() {
     alignItems: "center",
   }}
 >
-  {/* LARGE PPN LOGO */}
-  <Image
-    src="/ppn-logo.png"
-    alt="Pensacola Property Network"
-    width={600}
-    height={400}
-    style={{ borderRadius: "12px" }}
-  />
 
   <div>
     {/* SMALLER TEAM PHOTO */}

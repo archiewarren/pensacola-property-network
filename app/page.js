@@ -128,7 +128,7 @@ export default function Home() {
         <h2>Start Your Home Search</h2>
 
 <form
-  action="https://formspree.io/f/abcdwxyz"
+  action="https://formspree.io/f/xvzgeebk"
   method="POST"
 >
   <input

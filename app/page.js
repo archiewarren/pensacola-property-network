@@ -1,6 +1,8 @@
 import Image from "next/image";
 
 export default function Home() {
+const isMobile =
+  typeof window !== "undefined" && window.matchMedia("(max-width: 900px)").matches;
   return (
     <main style={{ fontFamily: "Arial, sans-serif", lineHeight: 1.6 }}>
 
@@ -33,11 +35,11 @@ export default function Home() {
     margin: "auto",
     display: "grid",
     gap: "40px",
-    gridTemplateColumns: "1fr 1fr",
+    gridTemplateColumns: isMobile ? "1fr" : "1fr 1fr",
     alignItems: "center",
   }}
 >
-  {/* TEAM PHOTO (preserves aspect ratio, no distortion) */}
+  {/* TEAM PHOTO */}
   <div
     style={{
       position: "relative",
@@ -47,6 +49,7 @@ export default function Home() {
       borderRadius: "12px",
       overflow: "hidden",
       justifySelf: "center",
+      order: isMobile ? 0 : 0, // stays first (top on mobile, left on desktop)
     }}
   >
     <Image
@@ -58,7 +61,8 @@ export default function Home() {
     />
   </div>
 
-  <div>
+  {/* BIOS */}
+  <div style={{ order: isMobile ? 1 : 1 }}>
     <h2>Meet Archie & Paul Warren</h2>
 
     <p>
@@ -74,6 +78,7 @@ export default function Home() {
     </p>
   </div>
 </section>
+
 
 
 

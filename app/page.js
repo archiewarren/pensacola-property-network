@@ -1,8 +1,13 @@
+"use client";
+
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
 export default function Home() {
   const [isMobile, setIsMobile] = useState(false);
+  // ...
+}
+
 
   useEffect(() => {
     const mediaQuery = window.matchMedia("(max-width: 900px)");

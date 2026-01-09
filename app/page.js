@@ -16,13 +16,6 @@ export default function Home() {
     return () => mediaQuery.removeEventListener("change", handleResize);
   }, []);
 
-  return (
-    <main style={{ fontFamily: "Arial, sans-serif", lineHeight: 1.6 }}>
-      {/* content */}
-    </main>
-  );
-}
->
 
 {/* TOP BRAND IMAGE */}
 <section style={{ width: "100%" }}>

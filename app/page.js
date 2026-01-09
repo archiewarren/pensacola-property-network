@@ -36,59 +36,63 @@ export default function Home() {
         </a>
       </section>
 
-      {/* ABOUT */}
-      <section
-        style={{
-          padding: "80px 20px",
-          maxWidth: "1100px",
-          margin: "auto",
-          display: "grid",
-          gap: "40px",
-          gridTemplateColumns: "1fr 1fr",
-          alignItems: "center",
-        }}
-      >
-        <Image
-          src="/team.jpg"
-          alt="Archie and Paul Warren"
-          width={800}
-          height={600}
-          style={{ borderRadius: "12px" }}
-        />
+{/* ABOUT */}
+<section
+  style={{
+    padding: "80px 20px",
+    maxWidth: "1100px",
+    margin: "auto",
+    display: "grid",
+    gap: "40px",
+    gridTemplateColumns: "1fr 1fr",
+    alignItems: "center",
+  }}
+>
+  {/* LARGE PPN LOGO */}
+  <Image
+    src="/ppn-logo.png"
+    alt="Pensacola Property Network"
+    width={600}
+    height={400}
+    style={{ borderRadius: "12px" }}
+  />
 
-        <div>
-          <Image
-            src="/ppn-logo.png"
-            alt="Pensacola Property Network"
-            width={220}
-            height={120}
-            style={{ marginBottom: "20px" }}
-          />
+  <div>
+    {/* SMALLER TEAM PHOTO */}
+    <Image
+      src="/team.jpg"
+      alt="Archie and Paul Warren"
+      width={400}
+      height={300}
+      style={{ borderRadius: "12px", marginBottom: "20px" }}
+    />
 
-          <h2>Meet Archie & Paul Warren</h2>
+    <h2>Meet Archie & Paul Warren</h2>
 
-          <p>
-            Paul Warren is a former Blue and Gold Officer and the father of 6
-            children including 4 USNA Grads – Arny (’12), Archie (’13),
-            Carpenter (’16), and Shepherd (’18).
-          </p>
+    <p>
+      Paul Warren is a former Blue and Gold Officer and the father of 6 children
+      including 4 USNA Grads – Arny (’12, P-8 pilot), Archie (’13, P-8 NFO),
+      Carpenter (’16, EP-3 Pilot), and Shepherd (’18, P-8 Pilot).
+    </p>
 
-          <p>
-            Paul and Archie have been active in the Pensacola real estate market
-            for several years. They own and manage Airbnb investment properties
-            with over 1,000 reviews averaging 4.96 stars and specialize in
-            helping Navy buyers find homes and investment properties.
-          </p>
+    <p>
+      Paul and Archie have both been active in the Pensacola real estate market
+      for several years. They each own Airbnb investment properties and co-host
+      additional Airbnbs. Combined they have over 1000 reviews with an average
+      rating of 4.96. They are licensed realtors passionate about helping Navy
+      buyers find homes and investments.
+    </p>
 
-          <Image
-            src="/southern-realty-logo.png"
-            alt="Southern Realty Gulf Coast LLC"
-            width={180}
-            height={90}
-            style={{ marginTop: "20px" }}
-          />
-        </div>
-      </section>
+    <Image
+      src="/southern-realty-logo.png"
+      alt="Southern Realty Gulf Coast LLC"
+      width={180}
+      height={90}
+      style={{ marginTop: "20px" }}
+    />
+  </div>
+</section>
+
 
       {/* TESTIMONIALS */}
       <section style={{ background: "#f4f4f4", padding: "80px 20px" }}>

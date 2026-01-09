@@ -42,7 +42,7 @@ export default function Home() {
 
           <p>
             Paul Warren is a former Blue and Gold Officer and the father of 6
-            children including 4 USNA Grads – Arny (’12, P-8 pilot), Archie (’13,
+            children including 4 USNA Grads – Arny (’12, P-8 Pilot), Archie (’13,
             P-8 NFO), Carpenter (’16, EP-3 Pilot), and Shepherd (’18, P-8 Pilot).
             Archie Warren is a 2013 USNA graduate and he holds a Master’s degree
             in Data Science from Northwestern University. At Navy, he studied
@@ -55,7 +55,7 @@ export default function Home() {
             market for several years. They each own Airbnb investment properties
             and co-host additional Airbnbs. Combined they have over 1000 reviews
             with an average rating of 4.96. They are both licensed realtors with
-            Levin Rinke Realty and have a passion for helping buyers,
+            Southern Realty Gulf Coast and have a passion for helping buyers,
             specifically Navy buyers, find their dream home or investment
             property. Collectively, the Warren boys have bought properties in
             Pensacola, Jacksonville, Corpus Christi, Whidbey Island, and

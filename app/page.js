@@ -5,9 +5,6 @@ import { useEffect, useState } from "react";
 
 export default function Home() {
   const [isMobile, setIsMobile] = useState(false);
-  // ...
-}
-
 
   useEffect(() => {
     const mediaQuery = window.matchMedia("(max-width: 900px)");
@@ -18,6 +15,29 @@ export default function Home() {
 
     return () => mediaQuery.removeEventListener("change", handleResize);
   }, []);
+
+  return (
+    <main style={{ fontFamily: "Arial, sans-serif", lineHeight: 1.6 }}>
+      {/* TOP BRAND IMAGE */}
+      <section style={{ width: "100%", background: "#000" }}>
+        <div
+          style={{
+            position: "relative",
+            width: "100%",
+            height: "420px",
+            overflow: "hidden",
+          }}
+        >
+          <Image
+            src="/top.png"
+            alt="Southern Realty Gulf Coast LLC - Archie and Paul Warren"
+            fill
+            priority
+            style={{ objectFit: "contain", objectPosition: "center" }}
+          />
+        </div>
+      </section>
+
 
   return (
     <main style={{ fontFamily: "Arial, sans-serif", lineHeight: 1.6 }}>

@@ -94,18 +94,23 @@ export default function Home() {
 </section>
 
 
-      {/* TESTIMONIALS */}
-      <section style={{ background: "#f4f4f4", padding: "80px 20px" }}>
-        <h2 style={{ textAlign: "center" }}>Client Testimonials</h2>
+     {/* TESTIMONIALS */}
+<section style={{ background: "#f4f4f4", padding: "80px 20px" }}>
+  <h2 style={{ textAlign: "center" }}>Client Testimonials</h2>
 
-        <div style={{ maxWidth: "900px", margin: "40px auto" }}>
-          <p><strong>Bill Mann (USNA ’90)</strong>: Archie’s Airbnb expertise made all the difference.</p>
-          <p><strong>Bob Moore (USNA ’23)</strong>: Integrity, mentorship, and trust every step.</p>
-          <p><strong>Jessica LaPlante (USNA ’23)</strong>: Effortless, organized, and responsive.</p>
-          <p><strong>Jared Bouloy (USNA ’23)</strong>: Having both Paul and Archie was invaluable.</p>
-          <p><strong>Javier Mejia</strong>: Above and beyond communication.</p>
-        </div>
-      </section>
+  <div style={{ maxWidth: "900px", margin: "40px auto" }}>
+    <p><strong>Bill Mann USNA 1990</strong>: “When my wife and I began the house hunting process, we were looking for a property with Airbnb potential and wanted a realtor with experience in that area. Archie's extensive knowledge of the Pensacola Airbnb market made him the obvious choice. He was extremely professional throughout the buying process and we'd absolutely recommend him to anyone looking to buy or invest in the area!”</p>
+
+    <p><strong>Bob Moore USNA 2023</strong>: “For four years, mids learn about integrity and looking out for others. Those lessons resonate on an especially deep level when a quarter to half a million dollars are at stake. Paul and Archie practice those steadfast values and will keep your wellbeing first. I wouldn’t have trusted anyone more than the Warrens to teach me about real estate and guide me through the process of buying my first home.”</p>
+
+    <p><strong>Jessica LaPlante USNA 2023</strong>: “Archie and his father Paul made purchasing a house effortless. They dedicated time to scope out multiple homes, providing ample videos for me to view. The transition to the home was stress free thanks to their diligent effort to ensure all documents and paperwork were completed and signed. Archie was always available and responded almost instantly! I had a great experience working with both Archie and his father!”</p>
+
+    <p><strong>Jared Bouloy USNA 2023</strong>: “I had an automatic degree of trust with both Paul and Archie not only because of their connection to the military, but to the Naval Academy, specifically. Being the father of four old goats and Naval Aviators himself, Paul looked after me like I was one of his own sons. I didn’t have to worry about him chasing a commission because I knew he wouldn’t allow me to get into a deal that he wouldn’t approve of for one of his own boys. Furthermore, when we found a deal, Archie mentored me by offering experience and helping me navigate the right loan, downpayment, and market to target for my situation as an SNA.”</p>
+
+    <p><strong>Javier Mejia</strong>: “Archie went above and beyond all expectations I had. His communication is very fast and he makes sure all questions are answered thoroughly.”</p>
+  </div>
+</section>
+
 
       {/* CONTACT */}
       <section
